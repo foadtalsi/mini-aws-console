@@ -176,7 +176,7 @@ class _Ec2PageState extends State<Ec2Page> {
       _lastResult = null;
     });
 
-    const url = 'http://44.198.22.236:8000';
+    const url = 'http://44.198.22.236:8000/ec2/launch';
     try {
       final response = await Dio().post(
         url,
